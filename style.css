@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: rgb(52, 56, 56);
 }
 
 .hero-section {
@@ -127,7 +128,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   padding: 20px;
-  background-color: darkslategray;
+  background-color: rgb(52, 56, 56);
 }
 
 .project-card {
@@ -143,4 +144,67 @@ body {
 
 .project-card:hover {
   transform: scale(1.05);
+}
+
+.container {
+  width: 80%;
+  min-width: 500px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+}
+
+.demo {
+  margin: 0 auto;
+  width: 70%;
+  padding: 20px;
+  display: flex;
+}
+
+dl.skill-set,
+.skill-set dt,
+.skill-set dd,
+.skill-set span {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  line-height: 22px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+dl.skill-set {
+  width: 100%;
+}
+
+.skill-set dt,
+.skill-set dd {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.skill-set dt {
+  width: 25%;
+  text-align: right;
+  padding: 2px 10px 2px 0;
+}
+
+.skill-set dd {
+  width: 75%;
+  background-color: #4d4d4d;
+}
+
+.skill-set dd span {
+  display: block;
+  background-color: #75f086;
+  text-align: center;
+  color: #2c2c2c;
+  padding: 2px 0;
+}
+
+dl.skill-set :after {
+  content: " ";
+  display: table;
 }
