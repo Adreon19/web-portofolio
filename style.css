@@ -208,3 +208,58 @@ dl.skill-set :after {
   content: " ";
   display: table;
 }
+
+footer {
+  background-color: #2c2c2c;
+}
+
+.footerIcon {
+  width: 100%;
+  padding: 10px;
+}
+
+.SocialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.SocialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50px;
+}
+
+.SocialIcons a i {
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+
+.SocialIcons a:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+
+.SocialIcons a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+
+.footerBottom {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.footerBottom p {
+  color: white;
+}
+
+.designer {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
