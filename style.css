@@ -139,11 +139,12 @@ body {
   margin: 10px;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
-  background-color: #422e2e;
+  background-color: #000000;
+  color: #ddd;
 }
 
 .project-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .container {
@@ -262,4 +263,7 @@ footer {
   letter-spacing: 1px;
   font-weight: 400;
   margin: 0px 5px;
+}
+
+@media (max-width: 500) {
 }
