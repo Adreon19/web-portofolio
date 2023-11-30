@@ -117,9 +117,8 @@ body {
   left: 50%;
   color: white;
   font-size: 24px;
-  text-align: left;
-  width: 100%;
-  padding-right: 50px;
+  max-width: 75ch;
+  padding: 10px;
 }
 
 .project-list {
@@ -265,5 +264,9 @@ footer {
   margin: 0px 5px;
 }
 
-@media (max-width: 800) {
+@media screen and (max-width: 800px) {
+  .me-section {
+    display: flex;
+    flex-direction: column;
+  }
 }
